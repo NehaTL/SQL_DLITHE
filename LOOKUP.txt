@@ -1,0 +1,94 @@
+CREATE TABLE Superstore3
+(
+	Row_ID INT,
+    Postal_Code INT,
+	Order_date DATETIME,
+	Segment_ID int,
+)
+
+SElECT *FROM Superstore3
+
+SElECT *FROM Superstore3
+
+DROP TABLE Superstore3
+
+INSERT INTO Superstore3 VALUES (1, 42420, '11/8/2016', 111)
+INSERT INTO Superstore3 VALUES (2, 42420,	'11/8/2016', 222)
+INSERT INTO Superstore3 VALUES (3, 90036,	'6/12/2016', 333)
+INSERT INTO Superstore3 VALUES (4, 33311,	'10/11/2015', 444)
+INSERT INTO Superstore3 VALUES (5, 33311,	'10/11/2015', 555)
+
+SELECT * FROM superstore1 
+
+
+
+SELECT * FROM NA_SUPER
+
+------------------------------------------------------
+
+
+CREATE TABLE SuperstoreTRI
+(
+	Row_ID INT,
+    Postal_Code INT,
+	Order_date DATETIME,
+	Customer_Name VARCHAR(50),
+	Segment_ID int,
+)
+
+SELECT * FROM SuperstoreTRI 
+
+INSERT INTO SuperstoreTRI VALUES (1, 42420, '11/8/2016', 'Claire Gute',  111)
+INSERT INTO SuperstoreTRI VALUES (2, 42420,	'11/8/2016', 'Claire Gute', 222)
+INSERT INTO SuperstoreTRI VALUES (3, 90036,	'6/12/2016', 'Darrin Van Huff', 333)
+INSERT INTO SuperstoreTRI VALUES (4, 33311,	'10/11/2015', 'Sean O Donnell', 444)
+INSERT INTO SuperstoreTRI VALUES (5, 33311,	'10/11/2015', 'Sean O Donnell', 555)
+
+Claire Gute
+Claire Gute
+Darrin Van Huff
+Sean O'Donnell
+Sean O'Donnell
+
+SELECT * FROM LOOKUPno
+
+
+
+
+-------------------------------------
+
+CREATE TABLE NNLKUP (
+    [ROW_ID] varchar(50),
+    [EMP_ID] varchar(50),
+    [EMP_NAME] varchar(50),
+    [EMP_SALARY] varchar(50),
+    [EMP_DESIGNATION] varchar(50)
+)
+
+SELECT * FROM NNLKUP
+
+
+-Updatee query inn SSIS 
+UPDATE NNLKUP 
+SET [EMP_ID] = ?,
+    [EMP_NAME] = ?,
+    [EMP_SALARY] = ?,
+    [EMP_DESIGNATION] = ?
+WHERE  [ROW_ID] = ?
+
+
+-------------------------------------------
+drop table LOOKUPEXCEL 
+
+-Updatee query inn SSIS 
+
+SELECT * FROM LOOKUPEXCEL 
+
+UPDATE LOOKUPEXCEL 
+SET [STD_ID] = ?,
+    [STD_NAME] = ?,
+    [STD_DPT] = ?,
+    [STD_CITY] = ?
+WHERE  [ROW_ID] = ?
+
+----------------------------------------------
