@@ -1,0 +1,34 @@
+How to create project for SSRS?
+-> New Project
+   Select Reporting Services
+   Choose Reporting Project (2nd option)
+   Browse the folder--create new folder--SSRS
+   Give the Project name--SSRS_TASK
+   Click OK
+
+How to create new report?
+-> Right click on Reports in the Explorer
+   Add new report
+   Select the SQL Table in Query Builder
+   Drag and Drop the columns in the Detail box
+   Give a Report name
+   Finish
+   
+
+How to add connection string in Data Source?
+-> In Select Data Source Dialog box
+   Click on Credentials-Enter the Server name
+                       -Log on to SQL Server Authentication
+                       -Select the database name
+                       -Click on Test Connection, OK.  
+
+How to add table inside Data Set?
+-> Right click on Data set in Report Data and add Data Set
+
+How to add and remove columns in report?
+-> Right click on column where required and click insert column
+   Right click on column where required and click delete column
+  
+
+How to check data in the report?
+-> Select and right click on Report in the Project menu, select view. 
